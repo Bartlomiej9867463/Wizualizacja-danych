@@ -1,5 +1,4 @@
 class Ciag:
-    dupa=3
     wartosci={}
     def wyświetl_dane(self):
          return self.wartosci
