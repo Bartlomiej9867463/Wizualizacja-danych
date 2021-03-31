@@ -21,3 +21,5 @@ class NaZakupy:
 
 sledz = NaZakupy("sledz",2,"kg",5)
 print(sledz.ile_produktu())
+print(sledz.ile_kosztuje())
+print(sledz.wyświetl_produkt())
