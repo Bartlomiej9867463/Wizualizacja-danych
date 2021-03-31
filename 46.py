@@ -39,11 +39,8 @@ class slowa:
         self.lista1=self.lista_pomocnicza
         self.lista2=self.lista_pomocnicza2
         for x in self.slowo1:
-            print((ord(x))-96)
             self.lista1[(ord(x))-96]+=1
-            print(self.lista1)
         for x in self.slowo2:
-            print(self.lista2)
             self.lista2[ord(x)-96]+=1
         for x in range(27):
             if self.lista1[x-1]!=self.lista2[x-1]:
