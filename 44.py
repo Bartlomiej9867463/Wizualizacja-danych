@@ -1,8 +1,5 @@
 class NaZakupy:
-    # definicja konstruktora
     def __init__(self, nazwa_produktu, ilosc, jednostka_miary, cena_jed):
-        #deklarujemy atrybuty
-        #self wskazuje że chodzi o zmienne właśnie definiowanej klasy
         self.nazwa_produktu = nazwa_produktu
         self.ilosc = ilosc
         self.jednostka_miary = jednostka_miary
